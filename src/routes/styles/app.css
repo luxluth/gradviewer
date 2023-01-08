@@ -61,3 +61,25 @@ div.grad {
     border-radius: 7px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 450px) {
+    textarea.gradCode {
+        width: 80%;
+    }
+
+    div.grad {
+        height: 20em;
+        width: 20em;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    textarea.gradCode {
+        width: 90%;
+    }
+
+    div.grad {
+        height: 15em;
+        width: 15em;
+    }
+}
